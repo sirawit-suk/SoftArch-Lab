@@ -1,1 +1,3 @@
 Test Authentication with Git Bash
+
+Authentication was successful!
