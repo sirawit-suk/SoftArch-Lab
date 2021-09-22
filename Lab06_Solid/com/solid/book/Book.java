@@ -6,16 +6,22 @@ import java.io.PrintWriter;
 import java.util.List;
 import java.util.ListIterator;
 
-public class Book {
+/**
+ *  This is the 2st Problem: Book Printing
+ *  Problem: Refactor code by avoid the problem from SRP & ISP violation
+ *  Solved: Use Interface ISP may be is the best approach for this problem
+ */
+
+public class Book implements IBookPublisher, IBookReader {
     private String title;
-    private List<String> pages;
+    //private List<String> pages;
     private ListIterator<String> iterator;
     private String currentPage;
 
     public Book(String title, List<String> pages) {
         this.title = title;
-        this.pages = pages;
-        iterator = pages.listIterator();
+        //this.pages = pages;
+        iterator = pages.listIterator(); 
         if (iterator.hasNext()) {
             currentPage = iterator.next();
         } else {
@@ -40,6 +46,7 @@ public class Book {
         }
     }
 
+    //These methods below are the problems we need to solve
     public void printToScreen() {
         Book book = this;
         do {
