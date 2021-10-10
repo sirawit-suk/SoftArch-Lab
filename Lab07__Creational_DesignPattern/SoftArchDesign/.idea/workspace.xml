@@ -5,23 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ee3285f-28d2-4241-a9da-a021f0fc3ca8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/SoftArchDesign.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/CSVBookMetadataExporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/JSONBookMetadataExporter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/creational/XMLBookMetadataExporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/creational/Book$Metadata.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/creational/Book$Metadata.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/creational/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/creational/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/creational/CSVBookMetadataFormatter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/creational/CSVBookMetadataFormatter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/creational/JSONBookMetadataFormatter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/creational/JSONBookMetadataFormatter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/creational/BookMetadataExporter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/creational/BookMetadataExporter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/creational/BookMetadataFormatterFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/creational/BookMetadataFormatterFactory$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/creational/BookMetadataFormatterFactory$Format.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/creational/BookMetadataFormatterFactory$Format.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/creational/BookMetadataFormatterFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/creational/BookMetadataFormatterFactory.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/creational/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/creational/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/JSONBookMetadataFormatterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/JSONBookMetadataFormatterTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/creational/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/creational/CSVBookMetadataFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/CSVBookMetadataFormatter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/creational/JSONBookMetadataFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/JSONBookMetadataFormatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creational/BookMetadataExporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/BookMetadataExporter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/creational/BookMetadataFormatterFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/BookMetadataFormatterFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/creational/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/creational/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/JSONBookMetadataFormatterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/JSONBookMetadataFormatterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +48,13 @@
         <projects_view />
       </state>
     </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -75,7 +85,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
-  <component name="RunManager" selected="JUnit.JSONTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="creational.Main" />
       <module name="SoftArchDesign.main" />
