@@ -4,7 +4,7 @@
 ## Labs
 - Lab05_Paros
 - Lab06_Solid
-- Lab07_DesignPattern_Creational
+- Lab07_Creational_DesignPattern
 
 ## Others
 - Midterm
