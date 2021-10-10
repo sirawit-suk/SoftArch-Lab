@@ -35,9 +35,9 @@ public class JSONBookMetadataFormatterTest {
         BookMetadataFormatter bookMetadataFormatter = new JSONBookMetadataFormatter();
         bookMetadataFormatter.append(TestData.GoFBook);
         String actual = bookMetadataFormatter.getMetadataString();
-
         assertEquals(expected.strip(), actual.strip());
     }
+
     @Test
     public void test103() throws IOException {
         Path file = this.workingDir.resolve("test103.json");

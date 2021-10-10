@@ -2,6 +2,8 @@ package creational;
 
 
 public class Book {
+
+    //This is Meta Data (The Explanation of data)
     public enum Metadata {
         ISBN("ISBN"),
         TITLE("Title"),
@@ -19,6 +21,7 @@ public class Book {
         }
     }
 
+    //This is Real Data store here
     private String ISBN;
     private String title;
     private String publisher;
