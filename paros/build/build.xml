@@ -1,0 +1,75 @@
+<project name="parosng" default="dist" basedir=".">
+    <description>
+	Build parosng.
+    </description>
+  <!-- set global properties for this build -->
+  <property name="src" location="../src"/>
+  <property name="build" location="build"/>
+  <property name="dist"  location="paros"/>
+
+  <target name="init">
+    <!-- Create the time stamp -->
+    <tstamp/>
+    <!-- Create the build directory structure used by compile -->
+    <delete dir="${dist}" includeEmptyDirs="true"/>
+    <delete dir="${build}" includeEmptyDirs="true"/>
+
+    <mkdir dir="${build}"/>
+  </target>
+
+  <target name="compile" depends="init"
+        description="compile the source " >
+    <!-- Compile the java code from ${src} into ${build} -->
+    <javac srcdir="${src}" destdir="${build}" classpath="lib.jar"/>
+
+  </target>
+
+  <target name="dist" depends="compile"
+        description="generate the distribution" >
+    <!-- Create the distribution directory -->
+    <mkdir dir="${dist}"/>
+    <copy file="lib.jar" tofile="${dist}/paros.jar"/> 
+
+    <copy todir="${build}/resource">
+	<fileset dir="${src}/resource" excludes="*.psd"/>
+    </copy>
+    <copy file="${src}/xml/log4j.properties" tofile="${build}/xml/log4j.properties"/> 
+
+
+  <copy todir="${dist}/xml">
+    <fileset dir="${src}/xml"/>
+  </copy>
+  <copy todir="${dist}/db">
+    <fileset dir="${src}/db"/>
+  </copy>
+  <copy todir="${dist}/filter">
+    <fileset dir="${src}/filter"/>
+  </copy>
+    <copy todir="${dist}/plugin">
+    	<fileset dir="${src}/plugin"/>
+    </copy>
+    <copy todir="${dist}/session">
+    	<fileset dir="${src}/session"/>
+    </copy>
+    <copy todir="${dist}/license">
+	<fileset dir="${src}/license"/>
+    </copy>
+    <copy todir="${dist}/log">
+      <fileset dir="${src}/log"/>
+    </copy>
+    <copy todir="${dist}">
+      <fileset dir="${src}" includes="*.exe *.so *.dll mozembed* *.bat *.sh"/>
+    </copy>
+
+    <copy file="${src}/doc/release.txt" todir="${dist}"/>
+
+
+    <copy file="${src}/resource/paros_logo.ico" todir="${dist}"/>
+
+    <!-- Put everything in ${build} into the MyProject-${DSTAMP}.jar file -->
+    <jar jarfile="${dist}/paros.jar" basedir="${build}" update="true" manifest="MainClass.txt" compress="false"/>
+  </target>
+
+
+
+</project>
