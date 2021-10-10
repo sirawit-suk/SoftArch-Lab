@@ -5,43 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ee3285f-28d2-4241-a9da-a021f0fc3ca8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.1/dependencies-accessors/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/creational/Book$Metadata.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/creational/Book.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/creational/BookCollection.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/creational/BookMetadataExporter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/creational/BookMetadataFormatter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/creational/BookMetadataFormatterFactory$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/creational/BookMetadataFormatterFactory$Format.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/creational/BookMetadataFormatterFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/creational/CSVBookMetadataFormatter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/creational/JSONBookMetadataFormatter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/creational/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/creational/TestData.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/creational/XMLBookMetadataFormatter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/CSVBookMetadataFormatterTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/JSONBookMetadataFormatterTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/XMLBookMetadataFormatterTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/test/test101.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/test/test101.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/test/test101.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/test/test102.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/test/test102.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/test/test102.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/test/test103.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/test/test103.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/resources/test/test103.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../สอบคำตอบBackup.docx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,5 +128,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
