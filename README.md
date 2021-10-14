@@ -5,6 +5,7 @@
 - Lab05_Paros
 - Lab06_Solid
 - Lab07_Creational_Design_Pattern
+- Lab08_Structural_Design_Pattern
 
 ## Others
 - Midterm
