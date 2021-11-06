@@ -6,6 +6,8 @@
 - Lab06_Solid
 - Lab07_Creational_Design_Pattern
 - Lab08_Structural_Design_Pattern
+- Lab09_Behavioral_Design_Pattern_1
+- Lab10_Behavioral_Design_Pattern_2
 
 ## Others
 - Midterm
