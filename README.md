@@ -11,6 +11,7 @@
 
 ## Others
 - Midterm
+- Final
 - Other Diagrams
 - CaseStudy_Spring_Framework
 - CaseStudy_Express_Framework
